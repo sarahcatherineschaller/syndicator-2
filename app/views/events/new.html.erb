@@ -1,0 +1,22 @@
+<h1>Add a New Event</h1>
+
+<br>
+
+<%= form_for ([current_user, @event]) do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+	<br>
+	<%= f.label :date %>
+	<%= f.text_field :date %>
+	<br>
+	<%= f.label :venue %>
+	<%= f.text_field :venue %>
+	<br>
+	<%= f.label :price %>
+	<%= f.text_field :price %>
+	<br>
+	<%= f.label :description %>
+	<%= f.text_area :description %>
+	<br>
+	<%= f.submit %>
+<% end %>
