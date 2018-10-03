@@ -1,24 +1,18 @@
-# README
+# Syndicator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails Application for a Code Challenge Project. The application automates a syndication process for events to be reposted on five different websites (assumed you are logged in to each platform). The Rufus Scheduler gem checks the database every hour, and if there are new entries, submits the data to each website.
 
-Things you may want to cover:
+## To run this app:
+Fork and clone the repository. Run bundle install and rake db:migrate. Start a local server and create a new user.
 
-* Ruby version
+## Contributing
 
-* System dependencies
+Bug reports and pull requests are welcome on GitHub at https://github.com/sarahcatherineschaller/syndicator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
-* Configuration
+## License
 
-* Database creation
+The gem is available as open source under the terms of the MIT License.
 
-* Database initialization
+## Code of Conduct
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Everyone interacting in the project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
