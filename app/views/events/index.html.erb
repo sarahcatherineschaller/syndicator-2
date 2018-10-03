@@ -1,0 +1,4 @@
+<% @events.each do |event| %>
+	<h2><%= link_to event.name, user_event_path(current_user.id, event.id) %></h2>
+	<br>
+<% end %>
